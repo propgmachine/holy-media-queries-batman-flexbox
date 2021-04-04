@@ -49,3 +49,38 @@
   width: 100vw;
   background-color: #f08a4b;
 }
+
+
+@media screen and (max-width: 1100px) {
+
+  #middle {
+    flex-direction: column;
+  }
+
+  #nav,
+  #main {
+    flex: 1;
+    width: 100%;
+  }
+
+  #articles {
+    flex: 1;
+  }
+
+  #ads {
+    width: 33vw;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  #main {
+    flex-direction: column;
+    flex: 4;
+  }
+
+  #articles,
+  #ads {
+    width: 100%;
+  }
+}
